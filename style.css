@@ -16,8 +16,7 @@ body{
 }
 #header{
   width: 100%;
-  height: 100vh;
-  
+
   background-size: cover;
   background-position: center;
 }
@@ -68,8 +67,17 @@ nav ul li a:hover::after{
   width: 100%;
 
 }
+.container1{
+  text-align: left;
+
+  top: 10%;
+  left: 10%;
+
+}
 .header-text{
+  margin-left: 10%;
   margin-top: 10%;
+  margin-bottom: 10%;
   font-size: 30px;
   
 }
@@ -257,27 +265,43 @@ nav ul li a:hover::after{
   font-size: 14px;
   transition: height 0.5s;
 }
-.layer h3{
+.layer h3,p{
   /* font-weight: 500; */
   margin-bottom: 20px;
+  color: aliceblue;
 }
 .layer a{
-  margin-top: 20px;
-  color:white;
+  /* margin-top: 20px; */
+  color:rgb(27, 9, 9);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 60px;
   background: #fff;
-  width: 60px;
+  width: 65px;
   height: 60px;
-  border-radius: 50%;
+  border-radius: 5px;
   text-align: center;
 }
 .work:hover img{
-  transform: scale(1.1);
+  transform: scale(1.0);
 }
 .work:hover .layer{
   height: 100%;
+}
+.l{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .l a{
+  width: 40px;
+  height: 30px;
+} */
+button {
+  border-radius: 10px;
+  width: 30px;
+  align-items: center;
+  text-align: center;
+  height: 10px;
 }
 .btn{
   display: block;
